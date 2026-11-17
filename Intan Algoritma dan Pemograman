@@ -1,0 +1,72 @@
+# SISTEM MONITORING STOK DAN PENJUALAN KANTIN KAMPUS
+
+## Identitas Mahasiswa
+
+**Nama:** Intan Jamilanisa  
+**NIM:** C2583207056  
+**Kelas:** 3B
+**Mata Kuliah:** Algoritma dan Pemrograman Lanjutan
+
+## Deskripsi Project
+
+Program ini merupakan aplikasi console berbasis bahasa C yang digunakan untuk memonitor stok produk dan transaksi penjualan pada kantin kampus.
+
+## Fitur Program
+
+1. Melihat daftar produk
+2. Menambah produk
+3. Mengubah harga dan stok produk
+4. Melakukan transaksi penjualan beberapa jenis produk
+5. Menambah stok produk
+6. Mencari produk berdasarkan nama
+7. Mengurutkan produk berdasarkan harga termurah
+8. Mengurutkan produk berdasarkan jumlah terjual
+9. Menampilkan laporan penjualan
+10. Mengecek produk dengan stok menipis
+11. Keluar dari program
+
+## Array yang Digunakan
+
+```c
+char namaProduk[MAX_PRODUK][50];
+int harga[MAX_PRODUK];
+int stok[MAX_PRODUK];
+int terjual[MAX_PRODUK];
+```
+
+Array digunakan untuk menyimpan nama produk, harga, stok, dan jumlah produk yang terjual.
+
+Program dapat menyimpan maksimal 50 produk.
+
+## Validasi Input
+
+Program memiliki validasi untuk:
+
+- Harga tidak boleh negatif.
+- Stok tidak boleh negatif.
+- Jumlah pembelian harus lebih dari 0.
+- Jumlah pembelian tidak boleh melebihi stok.
+- Produk yang tidak tersedia tidak dapat diproses.
+- Pilihan menu yang tidak tersedia akan ditolak.
+- Penambahan produk tidak dapat dilakukan jika kapasitas maksimum tercapai.
+
+## Cara Menjalankan Program
+
+1. Buka project menggunakan Code::Blocks.
+2. Buka file `main.c`.
+3. Build and Run atau tekan `F9`.
+4. Pilih menu sesuai kebutuhan.
+
+## Screenshot Pengujian
+
+Screenshot pengujian program disediakan pada repository ini sebagai dokumentasi hasil program.
+
+## Teknologi
+
+- Bahasa pemrograman: C
+- IDE: Code::Blocks
+- Konsep: Array, Percabangan, Perulangan, Function, Searching, dan Sorting.
+
+## Kesimpulan
+
+Program ini dibuat untuk membantu mengelola stok dan penjualan produk kantin kampus dengan menerapkan konsep dasar pemrograman C seperti array, percabangan, perulangan, function, searching, dan sorting.
